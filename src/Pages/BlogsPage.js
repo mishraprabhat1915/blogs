@@ -19,10 +19,10 @@ const BlogsPage = () => {
       <Header hasHiddenButton />
       <div className='row'>
         <div
-         className='col-1 col-sm-1  d-flex justify-content-center align-item-center'>
+          className='col-1 col-sm-1  d-flex justify-content-center align-item-center'>
           <Link to="/">
             <FontAwesomeIcon
-              style={{ fontSize: "2rem",color:'black',padding:'1rem' }} icon={faHome} />
+              style={{ fontSize: "2rem", color: 'black', padding: '1rem' }} icon={faHome} />
           </Link>
         </div>
         <div className='col-10 col-sm-10'>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import Buttons from './Buttons'
+import { faCloudUpload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = ({ hasHiddenButton }) => {
   return (
     <div className='container-fluid'>
@@ -10,7 +11,10 @@ const Header = ({ hasHiddenButton }) => {
           to="/">EQAIM BLOG </Link></div>
         {
           !hasHiddenButton ?
-            <Buttons text="Upload" link="/upload-blog" />
+            <Link to="/">
+              <FontAwesomeIcon
+                style={{ fontSize: "2rem", color: 'black', padding: '1rem' }} icon={faCloudUpload} />
+            </Link>
             :
             <div></div>}
       </div>

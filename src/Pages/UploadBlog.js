@@ -2,7 +2,7 @@ import React from 'react'
 
 const UploadBlog = () => {
   return (
-    <div>UploadBlog</div>
+    <div>Upload feature is not implemented</div>
   )
 }
 
